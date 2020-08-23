@@ -1,0 +1,160 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.app-description {
+    width: 100%;
+    text-align: center;
+}
+
+.animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.github-button {
+    width: 500px;
+}
+
+.action-button {
+    margin: 1rem;
+    background-position: center left 25px;
+    position: relative;
+    padding: 10px 40px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.action-button span {
+    display: inline-block;
+}
+
+.green {
+    background-color: #2ecc71;
+    border-bottom: 5px solid #27ae60;
+    text-shadow: 0px -2px #27ae60;
+}
+
+.action-button:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+.action-button:hover {
+    color:#E0E0E0;
+    text-decoration: none;
+}
+
+.black {
+    background-color: #211F1F;
+    border-bottom: 5px solid #000000;
+    text-shadow: 0px -2px #000000;
+}
+
+
+.button-wrapper {
+    display: inline !important;
+    margin-top: 2rem;
+}
+
+.content-wrapper {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    background-color: #F5F5F5;
+}
+
+.github-image {
+    display: inline-block;
+    margin-right: 0.5rem;
+    filter: invert(100%);
+    max-width: 1.875rem;
+}
+
+.header-highlight {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+.image-content {
+    margin: 0;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.image-content img {
+    border-radius: 0.25rem;
+    margin: 0.125rem 1rem 3rem 1rem;
+    display: inline-block;
+    max-width: 16rem;
+}
+
+.image-heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #2895FF;
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    color: #FFFFFF;
+    border-radius: 0 !important;
+    background-image: linear-gradient(to right, #2895FF, #37dbf5);
+    margin-bottom: 0 !important;
+
+}
+
+.main-content-container {
+    display: inline-block;
+    max-width: 40rem;
+}
+
+.main-content-header {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.main-content-subheader {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.navbar-brand {
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+.screenshot {
+    max-height: 25rem;
+}
+
+.screenshot-container {
+    float: left;
+
+}
+
+.star {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100vh;
+}
